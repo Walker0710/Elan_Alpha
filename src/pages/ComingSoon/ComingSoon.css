@@ -1,0 +1,22 @@
+.ComingSoon {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #000000 100%
+    );
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.coming-soon-container a {
+    color: white;
+    text-decoration: underline;
+}

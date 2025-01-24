@@ -1,0 +1,84 @@
+/* Container for the link */
+.link-container {
+    display: inline-flex; /* Adapts to content */
+    align-items: center;
+    border-radius: 50px;
+    border: 0.12vw solid #ffffffc4;
+    font-family: "JetBrains Mono", monospace;
+    background-color: transparent;
+    white-space: nowrap; /* Prevents wrapping */
+  }
+  
+  /* Link styling */
+  .pentagon-link {
+    text-decoration: none;
+    position: relative;
+    color: #ffffffcc;
+    transition: color 0.3s ease;
+  }
+  
+  /* Pentagon beside the link */
+  .pentagon {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0% 20%, 0% 80%, 40% 80%, 80% 50%, 40% 20%);
+    transition: background-color 0.3s ease;
+  }
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .link-container {
+    display: inline-flex; /* Adapts to content */
+    align-items: center;
+    border-radius: 50px;
+    border: 0.007vh solid #ffffffc4;
+    font-family: "JetBrains Mono", monospace;
+    background-color: transparent;
+    white-space: nowrap; /* Prevents wrapping */
+    transform: scale(2.7);
+  }
+  
+  /* Link styling */
+  .pentagon-link {
+    text-decoration: none;
+    position: relative;
+    color: #ffffffcc;
+    transition: color 0.3s ease;
+  }
+  
+  /* Pentagon beside the link */
+  .pentagon {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0% 20%, 0% 80%, 40% 80%, 80% 50%, 40% 20%);
+    transition: background-color 0.3s ease;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

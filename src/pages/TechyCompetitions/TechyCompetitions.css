@@ -1,0 +1,241 @@
+.TechyCompetitions {
+    background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #000000 100%
+    );
+    color: rgba(255, 255, 255, 0.699);
+
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+
+    padding: 10vh 4%;
+}
+
+.TechyCompetitions-Heading {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: Ilyas, serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.TechyCompetitions-Description {
+    width: 60%;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1vw;
+    margin-bottom: 10%;
+}
+
+.TechyCompetitions-Boxes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5vh;
+}
+
+.TechyCompetitions-Box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.TechyCompetitions-Box-Title-Container {
+    width: 25%;
+    position: relative;
+    
+}
+
+.TechyCompetitions-Box-Title {
+    
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: fit-content;
+    height: fit-content; 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    
+}
+
+.TechyCompetitions-Box-Description-Container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+
+.TechyCompetitions-Box-Description {
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+.TechyCompetitions-box-description-Register {
+    text-transform: uppercase;
+
+}
+
+.TechyCompetitions-box-description-Register a {
+    font-size: 0.8vw;
+    color: rgba(255, 255, 255, 0.699);
+    text-decoration: underline;
+
+}
+
+.TechyCompetitions-Box-Image {
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+
+.TechyCompetitions-Box-Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .TechyCompetitions {
+        background: linear-gradient(
+                to bottom, 
+                #000000 0%, 
+                #070309 56%, 
+                #000000 100%
+        );
+        color: #F1ECE5;
+    
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    
+        padding: 10vh 4%;
+    }
+    
+    .TechyCompetitions-Heading {
+        margin-top: 15vh;
+        margin-bottom: 1vh;
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .TechyCompetitions-Description {
+        width: 100%;
+        text-transform: uppercase;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 3vw;
+        margin-bottom: 10%;
+    }
+    
+    .TechyCompetitions-Boxes-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 7vh;
+    }
+    
+    .TechyCompetitions-Box {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .TechyCompetitions-Box-Title-Container {
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .TechyCompetitions-Box-Title {
+        
+        text-transform: uppercase;
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: fit-content;
+        height: fit-content; 
+        border-radius: 20px;
+        border: none;
+        
+    }
+    
+    .TechyCompetitions-Box-Description-Container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+    }
+    
+    .TechyCompetitions-Box-Description {
+        text-transform: uppercase;
+        font-size: 3vw;
+    }
+    
+    .TechyCompetitions-box-description-Register {
+        text-transform: uppercase;
+    
+    }
+    
+    .TechyCompetitions-box-description-Register a {
+        font-size: 2.8vw;
+        color: #F1ECE5;
+        text-decoration: underline;
+    
+    }
+    
+    .TechyCompetitions-Box-Image {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        aspect-ratio: 597/844;
+    }
+    
+    .TechyCompetitions-Box-Image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,241 @@
+.CultiCompetitions {
+    background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #000000 100%
+    );
+    color: #F1ECE5;
+
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+
+    padding: 10vh 4%;
+}
+
+.CultiCompetitions-Heading {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: Ilyas, serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.CultiCompetitions-Description {
+    width: 60%;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1vw;
+    margin-bottom: 10%;
+}
+
+.CultiCompetitions-Boxes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5vh;
+}
+
+.CultiCompetitions-Box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.CultiCompetitions-Box-Title-Container {
+    width: 25%;
+    position: relative;
+    
+}
+
+.CultiCompetitions-Box-Title {
+    
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: fit-content;
+    height: fit-content; 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    
+}
+
+.CultiCompetitions-Box-Description-Container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+
+.CultiCompetitions-Box-Description {
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+.CultiCompetitions-box-description-Register {
+    text-transform: uppercase;
+
+}
+
+.CultiCompetitions-box-description-Register a {
+    font-size: 0.8vw;
+    color: #F1ECE5;
+    text-decoration: underline;
+
+}
+
+.CultiCompetitions-Box-Image {
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+
+.CultiCompetitions-Box-Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .CultiCompetitions {
+        background: linear-gradient(
+                to bottom, 
+                #000000 0%, 
+                #070309 56%, 
+                #000000 100%
+        );
+        color: #F1ECE5;
+    
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    
+        padding: 10vh 4%;
+    }
+    
+    .CultiCompetitions-Heading {
+        margin-top: 15vh;
+        margin-bottom: 5vh;
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .CultiCompetitions-Description {
+        width: 100%;
+        text-transform: uppercase;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 3vw;
+        margin-bottom: 10%;
+    }
+    
+    .CultiCompetitions-Boxes-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 7vh;
+    }
+    
+    .CultiCompetitions-Box {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .CultiCompetitions-Box-Title-Container {
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .CultiCompetitions-Box-Title {
+        
+        text-transform: uppercase;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: fit-content;
+        height: fit-content; 
+        border-radius: 20px;
+        border: none;
+        
+    }
+    
+    .CultiCompetitions-Box-Description-Container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+    }
+    
+    .CultiCompetitions-Box-Description {
+        text-transform: uppercase;
+        font-size: 3vw;
+    }
+    
+    .CultiCompetitions-box-description-Register {
+        text-transform: uppercase;
+    
+    }
+    
+    .CultiCompetitions-box-description-Register a {
+        font-size: 2.8vw;
+        color: #F1ECE5;
+        text-decoration: underline;
+    
+    }
+    
+    .CultiCompetitions-Box-Image {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        aspect-ratio: 597/844;
+    }
+    
+    .CultiCompetitions-Box-Image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

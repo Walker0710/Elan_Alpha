@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Ade";
+    src: url("/src/assets/fonts/Ade/Ade-Display.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ilyas";
+    src: url("/src/assets/fonts/Ilyas/ilyas.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

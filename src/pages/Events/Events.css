@@ -1,0 +1,187 @@
+.Events {
+    background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #1A061F 100%
+    );
+    color: white;
+
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding: 25vh 4%;
+
+}
+
+.Events-Inner {
+    display: flex;
+    gap: 2vw;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.Events-Inner-Container {
+    height: 50%;
+    position: sticky;
+    top: 25vh;
+    width: 44vw;
+}
+
+.Events-Inner-Title {
+    font-family: Ilyas, serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.Events-Inner-About {
+    font-family: "JetBrains Mono", monospace;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    color: #ffffffb4;
+}
+
+.Events-Inner-Learn-More {
+    font-family: "JetBrains Mono", monospace;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    color: #ffffffb4;
+    margin-top: 2vw;
+}
+
+.Events-Inner-Learn-More a {
+    color: #ffffffb4;
+    text-decoration: none;
+}
+
+.Events-Inner-Img-Container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 42vw;
+
+}
+
+.Events-Inner-Img-Img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Events {
+        background: linear-gradient(
+                to bottom, 
+                #000000 0%, 
+                #070309 56%, 
+                #1A061F 100%
+        );
+        color: white;
+    
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        padding: 25vh 8% 5vh 8%;
+    
+    }
+    
+    .Events-Inner {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        height: auto;
+        position: relative;
+        width: 100%;
+    }
+    
+    .Events-Inner-Container {
+        height: auto;
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    
+    .Events-Inner-Title {
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .Events-Inner-About {
+        font-family: "JetBrains Mono", monospace;
+        text-transform: uppercase;
+        font-size: 3vw;
+        color: #ffffffb4;
+    }
+    
+    .Events-Inner-Learn-More {
+        font-family: "JetBrains Mono", monospace;
+        text-transform: uppercase;
+        font-size: 3vw;
+        color: #ffffffb4;
+        margin-top: 3vw;
+    }
+    
+    .Events-Inner-Learn-More a {
+        color: #ffffffb4;
+        text-decoration: underline;
+    }
+    
+    .Events-Inner-Img-Container {
+        margin-top: 5vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        height: auto;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
