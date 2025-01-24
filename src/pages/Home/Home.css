@@ -605,6 +605,7 @@
 /*Home-Gallery*/
 
 .Home-Gallery {
+    display: none;
     width: 100%;
     height: auto;
     position: relative;
