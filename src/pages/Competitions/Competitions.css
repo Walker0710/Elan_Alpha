@@ -11,7 +11,7 @@
     left: 0;
     position: relative;
     top: 0;
-    width: 100vw;
+    width: var(--adaptive-vw);
     z-index: 1;
     padding: 10% 4%;
 }
@@ -57,7 +57,7 @@
         left: 0;
         position: relative;
         top: 0;
-        width: 100vw;
+        width: var(--adaptive-vw);
         z-index: 1;
         padding: 25vh 8% 13vh 8%;
     }

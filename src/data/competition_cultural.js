@@ -46,7 +46,7 @@ const cultural_competitions = [
     link: 'https://bharatversity.com/dashboard/event/6785713ec9499900218d5b19'
   },
   {
-    name: 'Rhythm and Feel',
+    name: 'Reel and Rhythm',
     description: 'Reel and Rhythm is the ultimate online reel-making contest, where creativity meets competition! Participants will be given a theme to create a captivating reel that stands out. Registrations open one month prior, and once registered, you’ll have two weeks to craft and submit your reel. After that, it’s all about the likes! You’ll have two weeks to gather as much love as possible, and the reel with the most likes wins an exciting prize.',
     image: RHYTHM_AND_FEEL,
     link: 'https://bharatversity.com/dashboard/event/67875d5fc9499900218d630e'

@@ -141,12 +141,7 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
             </div>
 
             <div className="Home-Events-Description">
-              Gazing up at the night sky, a canvas painted with celestial wonders. The Milky Way, a shimmering river of stars, 
-              stretching across the heavens. Planets, distant worlds, each with its own unique story. A cosmic symphony, a 
-              universe of infinite possibilities. Gazing up at the night sky, a canvas painted with celestial wonders. The 
-              Milky Way, a shimmering river of stars, stretching across the heavens. Planets, distant worlds, each with its 
-              own unique story. A cosmic symphony, a universe of infinite possibilities.
-
+              
             </div>
             
           </div>
