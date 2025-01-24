@@ -20,7 +20,31 @@ import NavBar from './components/NavBar/NavBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import ReactLenis from 'lenis/react';
 
+import React, { useEffect } from "react";
+
 function App() {
+
+  useEffect(() => {
+    // Function to update the CSS variable
+    const updateViewportWidth = () => {
+      const viewportWidth = window.innerWidth; // Includes scrollbar
+      const effectiveWidth = document.documentElement.clientWidth; // Excludes scrollbar
+      document.documentElement.style.setProperty("--adaptive-vw", `${effectiveWidth}px`);
+    };
+
+    // Update on component mount
+    updateViewportWidth();
+
+    // Add resize event listener
+    window.addEventListener("resize", updateViewportWidth);
+
+    // Cleanup event listener on unmount
+    return () => {
+      window.removeEventListener("resize", updateViewportWidth);
+    };
+  }, []);
+
+
   return (
     <ReactLenis root>
       <BrowserRouter>

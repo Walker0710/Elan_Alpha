@@ -81,7 +81,7 @@ const tech_competitions = [
   },
   {
     name: 'Signal Processing Cup',
-    description: '',
+    description: 'Put your signal processing skills to the test in the signal processing hackathon, a two-round hackathon designed for enthusiasts of MATLAB and Python. Tackle challenges ranging from basic filtering and frequency analysis to advanced tasks like real-time signal denoising and QPSK simulation. With time-bound problem-solving and a testbench evaluation system, this competition rewards innovation, accuracy, and quick thinking. Compete to become the ultimate signal processing champion!',
     image: '',
     link: ''
   },
