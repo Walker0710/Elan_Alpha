@@ -1,61 +1,44 @@
-import './IITHMap.css';
-import React, { useEffect, useRef } from "react";
-import L from "leaflet";
+// src/components/Map.jsx
+import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
-function IITHMap() {
-  const mapContainerRef = useRef(null);
-  const mapInstance = useRef(null);
+import "leaflet/dist/leaflet.css";
 
-  useEffect(() => {
-    // Initialize map only once when the component is mounted
-    if (mapInstance.current) return; // Prevent re-initializing map
-
-    const map = L.map(mapContainerRef.current).setView([51.505, -0.09], 13); // Coordinates for London, zoom level 13
-
-    // Add OpenStreetMap tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
-
-    // Add a marker
-    L.marker([51.505, -0.09]).addTo(map).bindPopup('A marker in London').openPopup();
-
-    // Store map instance in ref for future use
-    mapInstance.current = map;
-
-    // Cleanup on component unmount
-    return () => {
-      map.remove();
-    };
-  }, []);
-
-  // Adjust the map when the window is resized or the parent container changes
-  useEffect(() => {
-    const resizeMap = () => {
-      if (mapInstance.current) {
-        mapInstance.current.invalidateSize();
-      }
-    };
-
-    // Resize the map when the window or parent container is resized
-    window.addEventListener('resize', resizeMap);
-    return () => {
-      window.removeEventListener('resize', resizeMap);
-    };
-  }, []);
+const IITHMap = () => {
+  const position = [17.592275100000002, 78.12218906710919]; // Default coordinates (latitude, longitude)
 
   return (
-    <div
-      ref={mapContainerRef}
-      style={{
-        position: "relative",
-        width: "100%",           // Take full width of the parent container
-        height: 0,              // Make the height 0, we'll use padding-top to set height
-        paddingTop: "100%",     // Ensure it stays square (1:1 aspect ratio)
-      }}
-    ></div>
-  );
 
-}
+      <MapContainer
+        center={position}
+        zoom={14}
+        style={{
+          height: "100%",
+          width: "100%",
+        }}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        {/*
+        <Marker position={position}>
+          <Popup>
+            IIT Hyderabad 
+          </Popup>
+        </Marker>
+
+        <Marker position={[17.595275100000002, 78.12218906710919]}>
+          <Popup>
+            IIT Hyderabad 
+          </Popup>
+        </Marker>
+        
+        */}
+        
+      </MapContainer>
+
+  );
+};
 
 export default IITHMap;

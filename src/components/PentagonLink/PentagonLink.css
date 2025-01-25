@@ -7,6 +7,7 @@
     font-family: "JetBrains Mono", monospace;
     background-color: transparent;
     white-space: nowrap; /* Prevents wrapping */
+    transition: background-color 0.3s ease;
   }
   
   /* Link styling */
@@ -26,7 +27,16 @@
     transform: translateY(-50%);
     clip-path: polygon(0% 20%, 0% 80%, 40% 80%, 80% 50%, 40% 20%);
     transition: background-color 0.3s ease;
+    background-color: #EB4B9B;
   }
+
+.link-container:hover {
+  background-color: rgb(235, 75, 155, 0.4);
+}
+
+.link-container:hover .pentagon {
+  background-color: rgb(255, 255, 255);
+}
   
 
 /* Extra small devices (phones, 600px and down) */

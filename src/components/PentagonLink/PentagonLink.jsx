@@ -27,7 +27,7 @@ const PentagonLink = ({ href, text, fontSize }) => {
           style={{
             width: `calc(${fontSize} * ${pentagonScale} * 0.5)`,
             height: `calc(${fontSize} * ${pentagonScale})`,
-            backgroundColor: "#EB4B9B",
+            
           }}
         ></span>
       </Link>

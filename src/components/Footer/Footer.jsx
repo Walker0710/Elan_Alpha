@@ -20,15 +20,15 @@ function Footer() {
           <div className='Footer-Upper-Right'>
             <div className='Footer-Upper-Right-Heading Footer-Heading'>SOCIALS</div>
             <div className='Footer-Upper-Right-Link'><Link target={'_blank'}
-                                                        to='https://www.instagram.com/elan_nvision.iith'>INSTAGRAM</Link>
+                                                        to='https://www.instagram.com/elan_nvision.iith' className='glow-hover'>INSTAGRAM</Link>
             </div>
             <div className='Footer-Upper-Right-Link'><Link target={'_blank'}
-                                                          to='https://x.com/elan_nvision'>X</Link></div>
+                                                          to='https://x.com/elan_nvision' className='glow-hover'>X</Link></div>
             <div className='Footer-Upper-Right-Link'><Link target={'_blank'}
-                                                           to='https://www.facebook.com/elannvision.iithyderabad/'>FACEBOOK</Link>
+                                                           to='https://www.facebook.com/elannvision.iithyderabad/' className='glow-hover'>FACEBOOK</Link>
             </div>
             <div className='Footer-Upper-Right-Link'><Link target={'_blank'}
-                                                           to='https://www.linkedin.com/company/elan-nvision-iith/'>LINKEDIN</Link>
+                                                           to='https://www.linkedin.com/company/elan-nvision-iith/' className='glow-hover'>LINKEDIN</Link>
             </div>
           </div>
         </div>

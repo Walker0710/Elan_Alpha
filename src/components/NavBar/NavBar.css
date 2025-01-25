@@ -21,7 +21,7 @@
     background-color: #14121C;
     border-radius: 10px;
     height: 100%;
-    width: 30%;
+    width: 38%;
     padding: 0 2% 0 0;
 }
 
@@ -29,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
     height: 100%;
     aspect-ratio: 1 / 1;
 }
@@ -43,17 +44,20 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(5, max-content); /* 5 columns */
-  grid-template-rows: repeat(2, auto); /* 2 rows */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
 
     grid-auto-rows: auto;
     column-gap: 4%;
-    row-gap: 10%;
+    row-gap: 0%;
     justify-content: center;
-    width: auto;
+    width: max-content;
+    height: min-content;
+    margin: auto;
 }
 
 .NavBar-links-container-link {
     color: white;
+    font-size: 0.9vw;
 }
 
 
