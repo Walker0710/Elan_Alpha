@@ -15,7 +15,32 @@
   height: auto;
 }
 
+/* For the entire page */
 body {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #f0f0f0; /* Thumb color and track color for Firefox */
+}
+
+/* For WebKit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EB4B9B; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EB4B9B; /* Darker color when hovered */
+  text-shadow: 0px 0px 1vw rgb(235, 75, 155),
+  0px 0px 1vw rgb(235, 75, 155);
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background color of the scrollbar track */
+  border-radius: 0; /* Rounded corners */
 }
 
 html.lenis,
@@ -50,6 +75,16 @@ a {
   color: #EB4B9B;
   text-shadow: 0px 0px 5vw rgb(235, 75, 155),
   0px 0px 5vw rgb(235, 75, 155);
+}
+
+.glow-hover {
+  transition: color 0.3s ease;
+}
+
+.glow-hover:hover {
+  color: #EB4B9B;
+  text-shadow: 0px 0px 1vw rgb(235, 75, 155),
+  0px 0px 1vw rgb(235, 75, 155);
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -85,12 +85,12 @@ import hamal from '/src/assets/team_images/Hamal_Logistics_Coordinator.png';
 export const overall = [
   {
     name: 'Mehul Srivastava',
-    position: 'Overall coordinator',
+    position: 'Overall Head',
     image: mehul
   },
   {
     name: 'Vighnesh Sreepathi',
-    position: 'Vice overall coordinator',
+    position: 'Vice overall Head',
     image: vighnesh
   }
 ];

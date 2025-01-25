@@ -1,5 +1,8 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes, useLocation} from 'react-router-dom';
+import React, { useEffect } from "react";
+
+
 import Home from './pages/Home/Home.jsx';
 import Events from './pages/Events/Events.jsx';
 import Workshops from './pages/Workshops/Workshops.jsx';
@@ -15,14 +18,24 @@ import TechyCompetitions from './pages/TechyCompetitions/TechyCompetitions.jsx';
 
 import ComingSoon from './pages/ComingSoon/ComingSoon.jsx';
 
-
 import NavBar from './components/NavBar/NavBar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import ReactLenis from 'lenis/react';
 
-import React, { useEffect } from "react";
+
+import FaviconSwitcher from './components/FaviconSwitcher/FaviconSwitcher.jsx';
 
 function App() {
+
+  const ScrollToTop = () => {
+    const location = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location.pathname]);
+  
+    return null;
+  };
 
   useEffect(() => {
     // Function to update the CSS variable
@@ -48,94 +61,74 @@ function App() {
   return (
     <ReactLenis root>
       <BrowserRouter>
+        <ScrollToTop/>
+          <FaviconSwitcher />
+        <NavBar/>
         <Routes>
           <Route exact path='/' element={
             <>
-              <NavBar/>
               <Home/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/events' element={
             <>
-              <NavBar/>
               <Events/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/culti-competitions' element={
             <>
-              <NavBar/>
               <CultiCompetitions/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/techy-competitions' element={
             <>
-              <NavBar/>
               <TechyCompetitions/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/workshops' element={
             <>
-              <NavBar/>
               <Workshops/>
-              <Footer/>
               
             </>
           }/>
           <Route exact path='/accomodation' element={
             <>
-              <NavBar/>
               <Accomodation/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/merch' element={
             <>
-              <NavBar/>
               <Merch/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/team' element={
             <>
-              <NavBar/>
               <Team/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/sponsors' element={
             <>
-              <NavBar/>
               <Sponsors/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/competitions' element={
             <>
-              <NavBar/>
               <Competitions/>
-              <Footer/>
             </>
           }/>
           <Route exact path='/map' element={
             <>
-              <NavBar/>
               <Map/>
-              <Footer/>
             </>
           }/>
 
           <Route exact path='/comingsoon' element={
             <>
-              <NavBar/>
               <ComingSoon/>
-              <Footer/>
             </>
           }/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </ReactLenis>
 

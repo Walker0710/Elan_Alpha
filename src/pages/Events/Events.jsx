@@ -63,7 +63,7 @@ function Events() {
             highlighting our participants&apos; unique contributions.
           </div>
           <div className="Events-Inner-Learn-More">
-            <Link to={'/culti-competitions'}>Click here for more</Link>
+            <Link to={'/culti-competitions'} className='glow-hover'>Click here for more</Link>
           </div>
         </div>
         <div className="Events-Inner-Img-Container">
@@ -94,7 +94,7 @@ function Events() {
             begin!
           </div>
           <div className="Events-Inner-Learn-More">
-            <Link to={'/techy-competitions'}>Click here for more</Link>
+            <Link to={'/techy-competitions'} className='glow-hover'>Click here for more</Link>
           </div>
         </div>
         <div className="Events-Inner-Img-Container">

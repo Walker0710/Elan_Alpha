@@ -1,4 +1,4 @@
-export const faqs = [
+const faqs = [
   {
     question: 'How will I know if my accommodation is confirmed?',
     answer: 'Our team will reach out to you to confirm your registration within a couple days of your submission.'
@@ -45,3 +45,5 @@ export const faqs = [
       'rooms will be allotted randomly.'
   }
 ];
+
+export default faqs;

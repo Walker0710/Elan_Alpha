@@ -92,7 +92,7 @@ function Merch() {
           </div>
         </div>
 
-        <div className="Merch-Box"  style={{gridColumn: '3 / span 2', gridRow: '2 / span 1'}}>
+        <div className="Merch-Box Merch-Box-Double"  style={{gridColumn: '3 / span 2', gridRow: '2 / span 1'}}>
         <a href='' className="Merch-Box-Link">
             <MerchContainer
                 imgfront={spaceship_white_1}

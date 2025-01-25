@@ -17,14 +17,15 @@
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 25vh 4%;
+    padding: 25vh 4% 25vh 4%;
 
 }
 
 
 .Events-Inner {
     display: flex;
-    gap: 2vw;
+    justify-content: space-between;
+    gap: 6vw;
     height: auto;
     position: relative;
     width: 100%;
@@ -72,7 +73,7 @@
     height: auto;
     justify-content: center;
     position: relative;
-    width: 42vw;
+    width: 36vw;
 
 }
 

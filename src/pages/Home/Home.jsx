@@ -37,6 +37,8 @@ import img22 from '../../assets/Home/gallery/22.png';
 import img23 from '../../assets/Home/gallery/23.png';
 import img24 from '../../assets/Home/gallery/24.png';
 
+import Carousel from '../../components/Carousel/Carousel';
+
 function Home() {
   return (
 
@@ -153,6 +155,7 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
                   fontSize={"1vw"}
                 />
           </div>
+
             
 
         </div>
@@ -246,6 +249,7 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
             </div>
             <div className="Home-Accomodation-Map">
               
+              {/*
               <iframe
                 src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7606.628073993554!2d78.1185007!3d17.5878164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbefdc136bffbb%3A0x73414ff6594c9191!2sIndian%20Institute%20of%20Technology%20Hyderabad!5e0!3m2!1sen!2sin!4v1720524171417!5m2!1sen!2sin'
                 width='100%'
@@ -256,6 +260,16 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
                 referrerPolicy='no-referrer-when-downgrade'>
 
               </iframe>
+              
+              
+              
+              
+              
+              */}
+
+
+              <IITHMap />
+              
             </div>
           </div>
 

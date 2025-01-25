@@ -30,9 +30,8 @@
 }
 
 .Merch-Container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     aspect-ratio: 4 / 4;
     gap: 1vw;
     margin-top: 2%;
@@ -43,7 +42,13 @@
 .Merch-Box {
     display: flex;
     flex-direction: column;
+    width: 24%;
+}
 
+.Merch-Box-Double {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
 }
 
 .Merch-Box:hover .Merch-Buy-Button {
