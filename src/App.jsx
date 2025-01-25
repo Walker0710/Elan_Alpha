@@ -6,7 +6,7 @@ import React, { useEffect } from "react";
 import Home from './pages/Home/Home.jsx';
 import Events from './pages/Events/Events.jsx';
 import Workshops from './pages/Workshops/Workshops.jsx';
-import Accomodation from './pages/Accomodation/Accomodation.jsx';
+import Accommodation from './pages/Accommodation/Accommodation.jsx';
 import Merch from './pages/Merch/Merch.jsx';
 import Team from './pages/Team/Team.jsx';
 import Sponsors from './pages/Sponsors/Sponsors.jsx';
@@ -91,9 +91,9 @@ function App() {
               
             </>
           }/>
-          <Route exact path='/accomodation' element={
+          <Route exact path='/accommodation' element={
             <>
-              <Accomodation/>
+              <Accommodation/>
             </>
           }/>
           <Route exact path='/merch' element={
