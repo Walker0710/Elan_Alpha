@@ -51,8 +51,6 @@ function Home() {
           <div className='Home-Hero-Headings'>
             <div className='Home-Hero-Heading'>
               ELAN <span style={{fontFamily: 'Ade'}}>&</span> <br/> NVISION
-
-
             </div>
 
             <div className='Home-Hero-CTA'>READY TO TAKEOFF</div>
