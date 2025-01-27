@@ -3,6 +3,7 @@ import './Competitions.css';
 import BgCont from '../../components/BgCont/BgCont';
 
 import culti_rulebook from '../../assets/pdfs/culti rulebook 2025.pdf';
+import techy_rulebook from '../../assets/pdfs/techy rulebook 2025.pdf';
 
 import PentagonLink from '../../components/PentagonLink/PentagonLink';
 
@@ -54,7 +55,7 @@ function Competitions() {
             begin! <br/><br/>
 
             <a 
-              href="" 
+              href={techy_rulebook} 
               download={"elan_nvision_techy_rulebook"}
               style={{
                 padding: '0',
