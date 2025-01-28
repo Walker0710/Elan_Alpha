@@ -89,7 +89,7 @@ const tech_competitions = [
     link: 'https://bharatversity.com/dashboard/event/6787b266c9499900218d64b5'
   },
   {
-    name: 'Signal Processing Cup',
+    name: 'Waveform Wars',
     description: 'Put your signal processing skills to the test in the signal processing hackathon, a two-round hackathon designed for enthusiasts of MATLAB and Python. Tackle challenges ranging from basic filtering and frequency analysis to advanced tasks like real-time signal denoising and QPSK simulation. With time-bound problem-solving and a testbench evaluation system, this competition rewards innovation, accuracy, and quick thinking. Compete to become the ultimate signal processing champion!',
     image: signal_processing_img,
     link: 'https://bharatversity.com/dashboard/event/67908350942d860021c71b29'

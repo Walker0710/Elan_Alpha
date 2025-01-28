@@ -39,12 +39,85 @@ import img24 from '../../assets/Home/gallery/24.png';
 
 import Carousel from '../../components/Carousel/Carousel';
 
+import React, { useEffect, useState } from "react";
+
 function Home() {
+
+  const [currentFrame, setCurrentFrame] = useState(0);
+  const [isInitialAnimationDone, setIsInitialAnimationDone] = useState(false);
+
+  const totalFrames = 126;
+  const initialAnimationFrames = 45; // Frames for the initial animation
+  const scrollAnimationStartFrame = 46; // Frame where scroll-based animation starts
+
+  // Function to format the frame number as zero-padded (e.g., 0001, 0002, ...)
+  const getFramePath = (frame) =>
+    `/images/planet/${String(frame).padStart(4, "0")}.png`; // Adjust the path if necessary
+
+  useEffect(() => {
+    const onLoad = () => {
+      // Handle the initial animation from 0001 to 0045
+      let frame = 0;
+      const interval = setInterval(() => {
+        if (frame < initialAnimationFrames) {
+          setCurrentFrame(frame);
+          frame += 1;
+        } else {
+          clearInterval(interval);
+          setIsInitialAnimationDone(true); // Mark the initial animation as done
+        }
+      }, 50); // Adjust speed of the initial animation (50ms per frame)
+    };
+
+    // Add the load event listener
+    window.addEventListener("load", onLoad);
+
+    // Scroll-based animation after the initial animation
+    const handleScroll = () => {
+      if (isInitialAnimationDone) {
+        const scrollHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPosition = window.scrollY;
+
+        // Calculate frame based on scroll position, starting from 0046
+        const frameIndex = Math.min(
+          totalFrames - scrollAnimationStartFrame,
+          Math.floor(
+            (scrollPosition / scrollHeight) *
+              (totalFrames - scrollAnimationStartFrame)
+          )
+        );
+        setCurrentFrame(scrollAnimationStartFrame + frameIndex - 1);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup listeners on unmount
+    return () => {
+      window.removeEventListener("load", onLoad);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isInitialAnimationDone, totalFrames]);
+
+
+
+
+
+
   return (
 
     <>
       <div className='Home'>
         <BgCont/>
+        
+        <div className="Home-Planet-Animation-Container">
+          <img
+            src={getFramePath(currentFrame + 1)} // currentFrame is 0-based, so add 1
+            alt={`Frame ${currentFrame + 1}`}
+            className="Home-Planet-Image"
+          />
+        </div>
 
         <div className='Home-Hero'>
           <div className="Home-Hero-Planet"></div>
