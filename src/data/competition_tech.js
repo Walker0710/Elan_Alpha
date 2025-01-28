@@ -12,13 +12,15 @@ import real_cricket_img from '../assets/techy_comp/real cricket.png'
 import road_to_valor_img from '../assets/techy_comp/road to valor.png'
 import robo_soccer_img from '../assets/techy_comp/robosoccer.png'
 import signal_processing_img from '../assets/techy_comp/spc.png'
+import vtc_img from '../assets/techy_comp/vtc.png'
+import ewaste_img from '../assets/techy_comp/EWASTE.png'
 
 const tech_competitions = [
   {
     name: 'Blockspace Virtual Trading',
     description: 'Dive into the world of cryptocurrency trading with this exciting 3-day competition on the Roostoo platform. Starting with a mock portfolio, participants will trade in real-time markets using market and limit orders to maximize returns. Compete for the top spot on the live leaderboard and win exciting prizes based on your final portfolio value. Sharpen your trading strategies and show the world your crypto prowess!',
-    image: '',
-    link: ''
+    image: vtc_img,
+    link: 'https://bharatversity.com/dashboard/event/67947b528f8b890021012a11'
   },
   {
     name: 'BGMI',
@@ -90,7 +92,7 @@ const tech_competitions = [
     name: 'Signal Processing Cup',
     description: 'Put your signal processing skills to the test in the signal processing hackathon, a two-round hackathon designed for enthusiasts of MATLAB and Python. Tackle challenges ranging from basic filtering and frequency analysis to advanced tasks like real-time signal denoising and QPSK simulation. With time-bound problem-solving and a testbench evaluation system, this competition rewards innovation, accuracy, and quick thinking. Compete to become the ultimate signal processing champion!',
     image: signal_processing_img,
-    link: ''
+    link: 'https://bharatversity.com/dashboard/event/67908350942d860021c71b29'
   },
   {
     name: 'Drone racing',
@@ -107,7 +109,7 @@ const tech_competitions = [
   {
     name: 'E-waste Management Ideathon',
     description: 'The E-Waste Ideathon invites participants to propose innovative and sustainable solutions for managing e-waste, biomedical waste, solid waste, and wastewater. Ideas will be evaluated on their creativity, feasibility, and potential societal impact. Showcase your problem-solving skills and help create a cleaner, greener future!',
-    image: '',
+    image: ewaste_img,
     link: 'https://bharatversity.com/dashboard/event/67875bb6c9499900218d62c9'
   },
 

@@ -162,13 +162,13 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
           <div className='Home-Gallery-Heading'>GALLERY</div>
           <div className="Home-Gallery-Grid">
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-1">
-              <img src={img1} alt="f" />
+              <img src={img2} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-2">
-              <img src={img1} alt="f" />
+              <img src={img3} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-3">
-              <img src={img1} alt="f" />
+              <img src={img9} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-4">
               <img src={img19} alt="f" />
@@ -204,10 +204,10 @@ look forward to an action-packed three-day experience at IIT Hyderabad.
               <img src={img1} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-15">
-              <img src={img1} alt="f" />
+              <img src={img2} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-16">
-              <img src={img1} alt="f" />
+              <img src={img7} alt="f" />
             </div>
             <div className="Home-Gallery-Grid-Item Home-Gallery-Grid-Item-17">
               <img src={img20} alt="f" />

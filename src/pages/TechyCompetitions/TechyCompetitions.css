@@ -5,7 +5,7 @@
             #070309 56%, 
             #000000 100%
     );
-    color: rgba(255, 255, 255, 0.699);
+    color: #F1ECE5;
 
     height: auto;
     left: 0;
@@ -62,12 +62,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 2% 5%;
     width: fit-content;
     height: fit-content; 
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.699);
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    transition: background 0.3s, color 0.3s;
     
+}
+
+.TechyCompetitions-Box:hover .TechyCompetitions-Box-Title {
+    background: rgb(235, 75, 155, 0.4);
+    color: rgb(255, 255, 255);
 }
 
 .TechyCompetitions-Box-Description-Container {
