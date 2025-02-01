@@ -1,106 +1,127 @@
 .NavBar-Desktop {
-    position: fixed;
-    width: 100%;
-    height: 10vh;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1% 2% 0 0;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2% 0 0;
+}
+
+.NavBar-Elan-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  height: 150%;
+  cursor: pointer;
 }
 
 .NavBar-links {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    column-gap: 2%;
-    
-    background-color: #14121C;
-    border-radius: 10px;
-    height: 100%;
-    width: 38%;
-    padding: 0 2% 0 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 2%;
+
+  background-color: #14121C;
+  border-radius: 10px;
+  height: 100%;
+  width: 38%;
+  padding: 0 2% 0 0;
 }
 
 .NavBar-links-vector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
-    height: 100%;
-    aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .NavBar-links-vector img {
-    max-width: 50%; /* Ensure the SVG doesn't overflow */
-    height: auto; /* Maintain aspect ratio */
-    filter: drop-shadow(0px 0px 4px rgb(235, 75, 155)) drop-shadow(0px 0px 4px rgb(235, 75, 155));
-  }
+  max-width: 50%;
+  /* Ensure the SVG doesn't overflow */
+  height: auto;
+  /* Maintain aspect ratio */
+  filter: drop-shadow(0px 0px 4px rgb(235, 75, 155)) drop-shadow(0px 0px 4px rgb(235, 75, 155));
+}
 
 .NavBar-links-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5, max-content); /* 5 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  /* 5 columns */
+  grid-template-rows: repeat(2, auto);
+  /* 2 rows */
 
-    grid-auto-rows: auto;
-    column-gap: 4%;
-    row-gap: 0%;
-    justify-content: center;
-    width: max-content;
-    height: min-content;
-    margin: auto;
+  grid-auto-rows: auto;
+  column-gap: 4%;
+  row-gap: 0%;
+  justify-content: center;
+  width: max-content;
+  height: min-content;
+  margin: auto;
 }
 
 .NavBar-links-container-link {
-    color: white;
-    font-size: 0.9vw;
+  color: white;
+  font-size: 0.9vw;
 }
 
 
 .NavBar-links-container-link a {
-    color: inherit;
-    text-decoration: none;
-    font-family: JetBrains Mono, monospace;
+  color: inherit;
+  text-decoration: none;
+  font-family: JetBrains Mono, monospace;
 }
 
 
 .NavBar-links-container-link a:hover {
-    color: #EB4B9B; 
-    text-shadow: 0px 0px 0.5vw rgb(235, 75, 155), 0px 0px 0.5vw rgb(235, 75, 155);
-    cursor: pointer;
+  color: #EB4B9B;
+  text-shadow: 0px 0px 0.5vw rgb(235, 75, 155), 0px 0px 0.5vw rgb(235, 75, 155);
+  cursor: pointer;
 }
 
 .NavBar-links-container-link-active {
-    color: #EB4B9B; 
-    text-shadow: 0px 0px 0.5vw rgb(235, 75, 155), 0px 0px 0.5vw rgb(235, 75, 155);
+  color: #EB4B9B;
+  text-shadow: 0px 0px 0.5vw rgb(235, 75, 155), 0px 0px 0.5vw rgb(235, 75, 155);
 }
 
 .mobile-navbar {
-    display: none;
+  display: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .NavBar-Desktop {
-        display: none;
-    }
+  .NavBar-Desktop {
+    display: none;
+  }
 
 
-    /* Base styles for the navbar */
-.mobile-navbar {
+  /* Base styles for the navbar */
+  .mobile-navbar {
     display: block;
     font-family: "JetBrains Mono", monospace;
     position: relative;
   }
-  
+
+  .mobile-navbar-Elan-logo {
+    position: fixed;
+    top: 1rem;
+    z-index: 10000000;
+    height: 10%;
+    cursor: pointer;
+  }
+
   /* Menu Button */
   .mobile-navbar-button {
     position: fixed;
-    top: 1rem;
+    top: 2rem;
     right: 1rem;
     z-index: 10000000;
     background: #00000000;
@@ -112,8 +133,8 @@
     cursor: pointer;
     transition: background 0.3s ease;
   }
-  
-  
+
+
   /* Full Page Menu */
   .mobile-navbar-menu {
     position: fixed;
@@ -131,12 +152,12 @@
     align-items: center;
     z-index: 100000;
   }
-  
+
   .mobile-navbar-menu-open {
     opacity: 1;
     pointer-events: auto;
   }
-  
+
   /* Menu List */
   .mobile-navbar-menu-container {
     width: 100%;
@@ -144,41 +165,34 @@
     margin: 0;
     padding: 40% 8%;
   }
-  
+
   .mobile-navbar-menu-container-link {
     margin: 1rem 0;
   }
 
   .mobile-navbar-menu-container-link-active {
-    color: #EB4B9B; 
+    color: #EB4B9B;
     text-shadow: 0px 0px 0.5vw rgb(235, 75, 155), 0px 0px 0.5vw rgb(235, 75, 155);
   }
-  
+
   .mobile-navbar-menu-container-link a {
     color: inherit;
     text-decoration: none;
     font-size: 1.5rem;
     transition: color 0.3s ease;
   }
-  
+
   .mobile-navbar-menu-container-link a:hover {
     color: #eb4b9b;
   }
-  
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
+@media only screen and (min-width: 992px) {}

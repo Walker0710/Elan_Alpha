@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 
 import NavBar_links_svg from '/src/assets/General/menu_vector.svg';
+import Elan_logo_svg from '/src/assets/logos/white horizontal.svg';
 
 import {Link, useLocation, useNavigate} from 'react-router-dom';
 
@@ -17,6 +18,11 @@ function NavBar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+  function onClickLogo(e) {
+    e.preventDefault();
+    navigate('/');
+  }
 
 
 
@@ -44,6 +50,9 @@ function NavBar() {
   return (
     <>
       <div className="NavBar-Desktop">
+        <div className="NavBar-Elan-logo" onClick={onClickLogo}>
+          <img src={Elan_logo_svg} alt="My SVG" width="100%" height="100%" />
+        </div>
         <div className="NavBar-links">
           <div className="NavBar-links-vector">
             <img src={NavBar_links_svg} alt="My SVG" width="100%" height="100%" />
@@ -95,6 +104,9 @@ function NavBar() {
       </div>
 
       <div className="mobile-navbar">
+      <div className="mobile-navbar-Elan-logo" onClick={onClickLogo}>
+          <img src={Elan_logo_svg} alt="My SVG" width="100%" height="100%" />
+        </div>
       {/* Menu Button */}
       <button 
         className="mobile-navbar-button" 
