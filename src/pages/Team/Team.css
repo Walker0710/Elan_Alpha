@@ -68,9 +68,9 @@
 
 .Team-Member-Position {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
     text-transform: uppercase;
-    padding: 0 4%;
+    padding: 2% 4%;
     height: min-content;
     color: #ffffff;
     text-align: right;
@@ -109,6 +109,141 @@
     text-transform: uppercase;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Team {
+        background: linear-gradient(
+                to bottom, 
+                #000000 0%, 
+                #070309 56%, 
+                #0b030e 100%
+        );
+        color: #F1ECE5;
+    
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: var(--adaptive-vw);
+        z-index: 1;
+    
+        padding: 10vh 8% 10vh 8%; 
+    }
+    
+    .Team-Heading {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .Team-Member-Headings {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 7vw;
+        text-transform: uppercase;
+        margin-bottom: 5vh;
+    }
+    
+    .Team-Member-Boxes-Container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
+        column-gap: 3%;
+        row-gap: 10vh;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    
+    .Team-Member-Box {
+        width: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2%;
+    }
+    
+    .Team-Member-Position-Img-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        border: 1px solid #F1ECE5;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .Team-Member-Position {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 4vw;
+        text-transform: uppercase;
+        padding: 2% 4%;
+        height: min-content;
+        color: #ffffff;
+        text-align: right;
+        width: 100%;
+        border-bottom: 1px solid #F1ECE5;
+    }
+    
+    .Head-Position {
+        background-color: #F1ECE5;
+        color: #000000;
+        padding-left: 5%;
+        width: fit-content;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 3vw 100%);
+    }
+    
+    .Team-Member-Img {
+        width: 100%;
+        height: max-content;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .Team-Member-Img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Team-Member-Name {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 4vw;
+        text-transform: uppercase;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
 
 
 

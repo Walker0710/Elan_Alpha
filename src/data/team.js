@@ -442,10 +442,6 @@ export const web_team = [
     image: vishank
   },
   {
-    name: 'Akhilesh',
-    image: akhilesh
-  },
-  {
     name: 'Ankush Singh',
     image: ankush
   }
