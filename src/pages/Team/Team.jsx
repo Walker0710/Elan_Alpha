@@ -29,18 +29,22 @@ import BgCont from '../../components/BgCont/BgCont';
 function Team() {
   return (
     <div className="Team">
-      <BgCont/>
+      <BgCont />
       <div className="Team-Heading glow-heading">our team</div>
+
+      {/* 
+      <div className="Team-Member-Headings">Overall head</div>
+      */}
 
       <div className="Team-Member-Boxes-Container">
         {
           overall.map((person, index) => (
             <div className="Team-Member-Box" key={index}>
-              <div className="Team-Member-Position-Img-Container" style={{backgroundImage: `url(${person.image})`}}>
+              <div className="Team-Member-Position-Img-Container" style={{ backgroundImage: `url(${person.image})` }}>
                 <div className="Team-Member-Position Head-Position">{person.position}</div>
-                
+
               </div>
-              <div className="Team-Member-Name">{person.name}</div>
+              <div className="Team-Member-Name">{person.name}<br/>+91 {person.number}</div>
             </div>
           ))
         }
@@ -55,10 +59,10 @@ function Team() {
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Position">{person.position}</div>
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
-              <div className="Team-Member-Name">{person.name}</div>
+              <div className="Team-Member-Name">{person.name}<br/>+91 {person.number}</div>
             </div>
           ))
         }
@@ -71,7 +75,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -87,7 +91,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -103,7 +107,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -119,7 +123,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -135,7 +139,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -151,7 +155,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -167,7 +171,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -183,7 +187,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -199,7 +203,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -215,7 +219,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -231,7 +235,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -247,7 +251,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -263,7 +267,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -279,7 +283,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -295,7 +299,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -311,7 +315,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -327,7 +331,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -343,7 +347,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -359,7 +363,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -375,7 +379,7 @@ function Team() {
             <div className="Team-Member-Box" key={index}>
               <div className="Team-Member-Position-Img-Container">
                 <div className="Team-Member-Img">
-                  <img src={person.image}/>
+                  <img src={person.image} />
                 </div>
               </div>
               <div className="Team-Member-Name">{person.name}</div>
@@ -383,9 +387,9 @@ function Team() {
           ))
         }
       </div>
-      
 
-      
+
+
 
     </div>
   );

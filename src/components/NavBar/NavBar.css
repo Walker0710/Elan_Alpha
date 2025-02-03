@@ -54,7 +54,7 @@
 .NavBar-links-container {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(5, max-content);
+  grid-template-columns: repeat(4, max-content);
   /* 5 columns */
   grid-template-rows: repeat(2, auto);
   /* 2 rows */
@@ -120,6 +120,8 @@
 
   /* Menu Button */
   .mobile-navbar-button {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
     position: fixed;
     top: 2rem;
     right: 1rem;
@@ -129,7 +131,6 @@
     border: none;
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
-    border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
   }

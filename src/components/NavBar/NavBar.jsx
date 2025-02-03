@@ -67,9 +67,13 @@ function NavBar() {
               <Link to='/events'>EVENTS</Link>
             </div>
 
+            {/* 
             <div className={"NavBar-links-container-link" + (location.pathname === '/workshops' ? ' NavBar-links-container-link-active' : '')}>
               <Link to='/workshops'>WORKSHOPS</Link>
             </div>
+            
+            */}
+            
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/accommodation' ? ' NavBar-links-container-link-active' : '')}>
               <Link to='/comingsoon'>ACCOMMODATION</Link>
@@ -80,12 +84,15 @@ function NavBar() {
             </div>
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/team' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/comingsoon'>TEAM</Link>
+              <Link to='/team'>CONTACT US</Link>
             </div>
 
+            {/* 
             <div className={"NavBar-links-container-link" + (location.pathname === '/contact' ? ' NavBar-links-container-link-active' : '')}>
               <a href='#Footer' onClick={(e) => handleSection(e, '#Footer')}>CONTACT</a>
             </div>
+            */}
+            
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/sponsors' ? ' NavBar-links-container-link-active' : '')}>
               <Link to='/comingsoon'>SPONSORS</Link>
@@ -138,6 +145,8 @@ function NavBar() {
           >
             <Link to="/events" onClick={(e) => onClickLink(e, '/events')}>EVENTS</Link>
           </div>
+
+          {/* 
           <div
             className={
               'mobile-navbar-menu-container-link' +
@@ -147,6 +156,9 @@ function NavBar() {
           >
             <Link to="/workshops" onClick={(e) => onClickLink(e, '/workshops')}>WORKSHOPS</Link>
           </div>
+          
+          */}
+          
           <div
             className={
               'mobile-navbar-menu-container-link' +
@@ -172,8 +184,10 @@ function NavBar() {
                 ? ' mobile-navbar-menu-container-link-active' : '')
             }
           >
-            <Link to="/team" onClick={(e) => onClickLink(e, '/comingsoon')}>TEAM</Link>
+            <Link to="/team" onClick={(e) => onClickLink(e, '/team')}>CONTACT US</Link>
           </div>
+          
+          {/*
           <div
             className={
               'mobile-navbar-menu-container-link' +
@@ -191,6 +205,8 @@ function NavBar() {
               CONTACT
             </a>
           </div>
+          */}
+          
           <div
             className={
               'mobile-navbar-menu-container-link' +

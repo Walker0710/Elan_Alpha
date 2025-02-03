@@ -86,12 +86,8 @@ export const overall = [
   {
     name: 'Mehul Srivastava',
     position: 'Overall Head',
-    image: mehul
-  },
-  {
-    name: 'Vighnesh Sreepathi',
-    position: 'Vice overall Head',
-    image: vighnesh
+    image: mehul,
+    number: '63952 63137'
   }
 ];
 
@@ -100,67 +96,80 @@ export const heads = [
   {
     name: 'Anirudh Saikrishnan',
     position: 'Workshop & Techy head',
-    image: Anirudh
+    image: Anirudh,
+    number: '98336 32987'
   },
   {
     name: 'Tanmay Vishwasrao',
     position: 'Production & Pronites head',
-    image: tanmay
+    image: tanmay,
+    number: '99236 26782'
   },
   {
     name: 'Aditya Vikram Singh',
     position: 'Sponsorships head',
-    image: aditya
+    image: aditya,
+    number: '87369 84340'
   },
   {
     name: 'Anek Anjireddy',
     position: 'Sponsorships head',
-    image: anek
+    image: anek,
+    number: '99896 77207'
   },
   {
     name: 'Ch Surya Saketh',
     position: 'Infrastructure & Security head',
-    image: saketh
+    image: saketh,
+    number: '91107 33036'
   },
   {
     name: 'Yaswanth Balaji Edara',
     position: 'Informal & Social Cause head',
-    image: yaswanth
+    image: yaswanth,
+    number: '91443 33999'
   },
   {
     name: 'Harigovind P',
     position: 'Creatives & Multimedia head',
-    image: hari
+    image: hari,
+    number: '94000 19724'
   },
   {
     name: 'Sahil Kushwaha',
     position: 'Creatives & Multimedia head',
-    image: sahil
+    image: sahil,
+    number: '88510 96871'
   },
   {
     name: 'Aryan Jain',
     position: 'Culti & Biggies, LIT and EML head',
-    image: aryan
+    image: aryan,
+    number: '96508 96994'
   },
   {
     name: 'Ananya S Reddy',
     position: 'Public relations, Publicity & Web head',
-    image: ananya
+    image: ananya,
+    number: '63040 56873'
   },
   {
     name: 'Dhruv Sharma',
     position: 'Public relations, Publicity & Web head',
-    image: dhruv
+    image: dhruv,
+    number: '77027 36060'
   },
   {
     name: 'Katari Siri Varshini',
     position: 'Hospitality & Transport head',
-    image: katari
+    image: katari,
+    number: '93819 79497'
   },
   {
     name: 'Aashrita Venishetty',
     position: 'Logistics head',
-    image: aashrita
+    image: aashrita,
+    number: '79896 21724'
   }
 ];
 
@@ -232,14 +241,6 @@ export const sponsorship_team = [
   {
     name: 'Harsha Vardhan Pulavarthi',
     image: harshavardhan
-  },
-  {
-    name: 'Girijesh Dasari',
-    image: girijesh
-  },
-  {
-    name: 'Harshil Goyal',
-    image: harshil
   },
   {
     name: 'Abhinav Shyam',
@@ -328,10 +329,6 @@ export const creatives_team = [
     name: 'Vika Addakula',
     image: vikas
   },
-  {
-    name: 'Pranav',
-    image: pranav
-  }
 ];
 
 export const multimedia_team = [
@@ -342,10 +339,6 @@ export const multimedia_team = [
   {
     name: 'Raghav',
     image: raghav
-  },
-  {
-    name: 'Ramuni Lalith Vishnu',
-    image: Lalith
   },
   {
     name: 'Pritam',

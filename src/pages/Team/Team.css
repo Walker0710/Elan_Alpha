@@ -17,6 +17,17 @@
     padding: 25vh 4% 10vh 4%; 
 }
 
+.Team-Contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.4;
+    font-size: 1vw;
+}
+
 .Team-Heading {
     margin-top: 15vh;
     margin-bottom: 10vh;
