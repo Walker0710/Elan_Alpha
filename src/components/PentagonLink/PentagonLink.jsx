@@ -2,7 +2,7 @@ import './PentagonLink.css';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const PentagonLink = ({ href, text, fontSize }) => {
+const PentagonLink = ({ href, target, text, fontSize }) => {
   const pentagonScale = 1.5; // Proportion of pentagon size to font size
 
   return (
@@ -15,6 +15,7 @@ const PentagonLink = ({ href, text, fontSize }) => {
     >
       <Link
         to={href}
+        target={target}
         className="pentagon-link"
         style={{
           fontSize,
@@ -37,6 +38,7 @@ const PentagonLink = ({ href, text, fontSize }) => {
 
 PentagonLink.propTypes = {
   href: PropTypes.string.isRequired,
+  target: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   fontSize: PropTypes.string.isRequired,
 };

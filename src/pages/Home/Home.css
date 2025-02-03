@@ -167,6 +167,10 @@
     line-height: 1;
 }
 
+.Home-Hero-Button {
+    margin-left: -1%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Home-Hero {
@@ -295,6 +299,12 @@
         padding-left: 0.5rem;
         line-height: 1;
     }
+
+    .Home-Hero-Button {
+        margin-top: 10%;
+        margin-left: 16%;
+    }
+    
     
     .Home-Hero-Description {
         font-family: JetBrains Mono, monospace;

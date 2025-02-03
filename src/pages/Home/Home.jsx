@@ -127,6 +127,15 @@ function Home() {
             </div>
 
             <div className='Home-Hero-CTA'>READY TO TAKEOFF</div>
+            <div className="Home-Hero-Button">
+            <PentagonLink
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScHeay7wTo2a71VaQH1u4GyHjSDFKTuk5qv0AGiwqh2a_m5JA/viewform"
+                  target="_blank"
+                  text="GET YOUR FEST PASSES"
+                  className="Home-Hero-Passes-Link"
+                  fontSize={"1vw"}
+                />
+            </div>
 
             <div className='Home-Hero-Description'>
               Elan & nVision, the annual techno-cultural fest of IIT Hyderabad, is back with its 16th
