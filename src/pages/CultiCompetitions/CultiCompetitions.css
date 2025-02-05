@@ -166,6 +166,11 @@
         height: auto;
         font-family: 'JetBrains Mono', monospace;
     }
+
+    .CultiCompetitions-Box:hover .CultiCompetitions-Box-Title {
+        background: transparent;
+        color: rgb(255, 255, 255);
+    }
     
     .CultiCompetitions-Box-Title-Container {
         width: 100%;
@@ -218,9 +223,6 @@
     
     }
 
-    .CultiCompetitions-box-description-Link {
-    }
-    
     .CultiCompetitions-Box-Image {
         margin-top: 5%;
         margin-bottom: 10%;
@@ -233,6 +235,8 @@
         height: 100%;
         object-fit: contain;
     }
+
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

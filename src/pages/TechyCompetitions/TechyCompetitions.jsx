@@ -4,6 +4,8 @@ import BgCont from '../../components/BgCont/BgCont';
 
 import tech_competitions from '../../data/competition_tech.js';
 
+import PentagonLink from '../../components/PentagonLink/PentagonLink.jsx';
+
 function TechyCompetitions() {
   return (
     <div className="TechyCompetitions">
@@ -35,7 +37,16 @@ function TechyCompetitions() {
             {competition.description}
           </div>
           <div className="TechyCompetitions-box-description-Register">
-            <a href={competition.link} target="_blank" rel="noreferrer">Register here</a>
+            {
+              // <a href={competition.link} target="_blank" rel="noreferrer">Register here</a>
+            }
+            <PentagonLink
+                                          href={competition.link}
+                                          target="_blank"
+                                          text="Register here"
+                                          className="TechyCompetitions-box-description-Link"
+                                          fontSize={"1vw"}
+                                        />
           </div>
 
         </div>

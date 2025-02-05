@@ -166,6 +166,11 @@
         height: auto;
         font-family: 'JetBrains Mono', monospace;
     }
+
+    .TechyCompetitions-Box:hover .TechyCompetitions-Box-Title {
+        background: transparent;
+        color: rgb(255, 255, 255);
+    }
     
     .TechyCompetitions-Box-Title-Container {
         width: 100%;
@@ -193,6 +198,7 @@
         display: flex;
         flex-direction: column;
         gap: 6%;
+        position: relative;
     }
     
     .TechyCompetitions-Box-Description {
@@ -202,13 +208,17 @@
     
     .TechyCompetitions-box-description-Register {
         text-transform: uppercase;
-    
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 6%;
+        margin-left: 10%;
+        position: relative;
     }
     
     .TechyCompetitions-box-description-Register a {
         font-size: 2.8vw;
         color: #F1ECE5;
-        text-decoration: underline;
+        text-decoration: none;
     
     }
     
