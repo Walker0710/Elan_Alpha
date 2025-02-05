@@ -4,6 +4,8 @@ import BgCont from '../../components/BgCont/BgCont';
 
 import cultural_competitions from '../../data/competition_cultural.js';
 
+import PentagonLink from '../../components/PentagonLink/PentagonLink.jsx';
+
 function CultiCompetitions() {
   return (
     <div className="CultiCompetitions">
@@ -32,7 +34,16 @@ function CultiCompetitions() {
             {competition.description}
           </div>
           <div className="CultiCompetitions-box-description-Register">
-            <a href={competition.link} target="_blank" rel="noreferrer">Register here</a>
+            {
+              // <a href={competition.link} target="_blank" rel="noreferrer">Register here</a>
+            }
+            <PentagonLink
+                              href={competition.link}
+                              target="_blank"
+                              text="Register here"
+                              className="CultiCompetitions-box-description-Link"
+                              fontSize={"1vw"}
+                            />
           </div>
 
         </div>

@@ -8,6 +8,7 @@
     background-color: transparent;
     white-space: nowrap; /* Prevents wrapping */
     transition: background-color 0.3s ease;
+    position: relative;
   }
   
   /* Link styling */

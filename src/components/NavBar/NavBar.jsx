@@ -63,8 +63,8 @@ function NavBar() {
               <Link to='/'>HOME</Link>
             </div>
 
-            <div className={"NavBar-links-container-link" + (location.pathname === '/events' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/events'>EVENTS</Link>
+            <div className={"NavBar-links-container-link" + (location.pathname === '/team' ? ' NavBar-links-container-link-active' : '')}>
+              <Link to='/team'>CONTACT</Link>
             </div>
 
             {/* 
@@ -83,8 +83,9 @@ function NavBar() {
               <Link to='/comingsoon'>MERCH</Link>
             </div>
 
-            <div className={"NavBar-links-container-link" + (location.pathname === '/team' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/team'>CONTACT US</Link>
+
+            <div className={"NavBar-links-container-link" + (location.pathname === '/events' ? ' NavBar-links-container-link-active' : '')}>
+              <Link to='/events'>EVENTS</Link>
             </div>
 
             {/* 

@@ -96,7 +96,7 @@
 .CultiCompetitions-box-description-Register a {
     font-size: 0.8vw;
     color: #F1ECE5;
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 
@@ -193,6 +193,7 @@
         display: flex;
         flex-direction: column;
         gap: 6%;
+        position: relative;
     }
     
     .CultiCompetitions-Box-Description {
@@ -202,14 +203,22 @@
     
     .CultiCompetitions-box-description-Register {
         text-transform: uppercase;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 6%;
+        margin-left: 10%;
+        position: relative;
     
     }
     
     .CultiCompetitions-box-description-Register a {
         font-size: 2.8vw;
         color: #F1ECE5;
-        text-decoration: underline;
+        text-decoration: none;
     
+    }
+
+    .CultiCompetitions-box-description-Link {
     }
     
     .CultiCompetitions-Box-Image {
