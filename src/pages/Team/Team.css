@@ -99,7 +99,6 @@
 
 .Team-Member-Img {
     width: 100%;
-    height: max-content;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;

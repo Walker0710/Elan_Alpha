@@ -1,5 +1,6 @@
 import mehul from '/src/assets/team_images/Mehul_OC - Elan & ηVision IIT Hyderabad.jpg';
 import vighnesh from '/src/assets/team_images/Vighnesh_Vice overall coordinator.jpg';
+import mishaal from '/src/assets/team_images/Mishaal_Hospitality_domain_head.jpeg';
 import Anirudh from '/src/assets/team_images/Anirudh_Techy&Workshops_Domainhead.jpeg';
 import tanmay from '/src/assets/team_images/Tanmay_Pronites & Production_Domain head.jpg';
 import aditya from '/src/assets/team_images/Aditya_Sponsorship_domain head.jpg';
@@ -160,10 +161,10 @@ export const heads = [
     number: '77027 36060'
   },
   {
-    name: 'Katari Siri Varshini',
+    name: 'Syed Mishaal',
     position: 'Hospitality & Transport head',
-    image: katari,
-    number: '93819 79497'
+    image: mishaal,
+    number: '74185 95805'
   },
   {
     name: 'Aashrita Venishetty',
