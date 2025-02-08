@@ -63,6 +63,8 @@
 .Home-Hero-Headings {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 17%;
     gap: 3vw;
     position: relative;
     z-index: 10;
@@ -83,7 +85,6 @@
     text-transform: uppercase;
     font-size: 1.1vw;
     line-height: 1.6;
-    margin-top: 15%;
     padding: 2%;
     background-color: rgba(133, 133, 133, 0.05);
     border-radius: 30px;
@@ -168,7 +169,12 @@
 }
 
 .Home-Hero-Button {
-    margin-left: -1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -301,8 +307,10 @@
     }
 
     .Home-Hero-Button {
+        display: flex;
+        justify-content: start;
         margin-top: 10%;
-        margin-left: 16%;
+        margin-left: 17%;
     }
     
     
