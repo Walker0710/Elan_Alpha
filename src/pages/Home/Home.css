@@ -177,6 +177,29 @@
 
 }
 
+.Home-Hero-Button-In {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Home-Hero-Button-In a {
+    font-family: JetBrains Mono, monospace;
+    text-decoration: none;
+    font-size: 2.1vw;
+    text-transform: uppercase;
+    color: #F1ECE5;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.493);
+    padding: 1% 1.4%;
+    transition: all 0.3s ease;
+}
+
+.Home-Hero-Button-In a:hover {
+    background-color: rgb(235, 75, 155, 0.4);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Home-Hero {
@@ -310,7 +333,22 @@
         display: flex;
         justify-content: start;
         margin-top: 10%;
-        margin-left: 17%;
+    }
+
+    .Home-Hero-Button-In a {
+        font-family: JetBrains Mono, monospace;
+        text-decoration: none;
+        font-size: 5.1vw;
+        text-transform: uppercase;
+        color: #F1ECE5;
+        border-radius: 50px;
+        border: 2px solid rgba(255, 255, 255, 0.493);
+        padding: 1% 1.4%;
+        transition: all 0.3s ease;
+    }
+
+    .Home-Hero-Button-In a:hover {
+        background-color: rgb(235, 75, 155, 0.4);
     }
     
     
