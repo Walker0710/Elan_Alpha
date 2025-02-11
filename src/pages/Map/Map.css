@@ -1,0 +1,104 @@
+.Map {
+    background: linear-gradient(
+        to bottom, 
+        #000000 0%, 
+        #070309 56%, 
+        #000000 100%
+    );
+    color: #F1ECE5;
+    
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: var(--adaptive-vw);
+    z-index: 1;
+    
+    padding: 10vh 4%;
+}
+
+.Accommodation-Map-Heading {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: Ilyas, serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.Accommodation-Map-Container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.Accommodation-Map-Container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Map {
+        background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #000000 100%
+        );
+        color: #F1ECE5;
+        
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: var(--adaptive-vw);
+        z-index: 1;
+        
+        padding: 25vh 8% 10vh 8%;
+    }
+
+    .Accommodation-Map-Heading {
+        margin-top: 0;
+        margin-bottom: 3vh;
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .Accommodation-Map-Container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    
+    .Accommodation-Map-Container img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
