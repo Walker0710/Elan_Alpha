@@ -15,6 +15,7 @@ import Map from './pages/Map/Map.jsx';
 
 import CultiCompetitions from './pages/CultiCompetitions/CultiCompetitions.jsx';
 import TechyCompetitions from './pages/TechyCompetitions/TechyCompetitions.jsx';
+import LitCompetitions from './pages/LitCompetitions/LitCompetitions.jsx';
 
 import ComingSoon from './pages/ComingSoon/ComingSoon.jsx';
 
@@ -83,6 +84,12 @@ function App() {
           <Route exact path='/techy-competitions' element={
             <>
               <TechyCompetitions/>
+            </>
+          }/>
+
+          <Route exact path='/lit-competitions' element={
+            <>
+              <LitCompetitions/>
             </>
           }/>
           <Route exact path='/workshops' element={

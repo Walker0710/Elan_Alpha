@@ -18,13 +18,14 @@
 
 .Competitions-Descriptions-Container {
     display: flex;
-    gap: 10%;
+    gap: 3%;
 }
 
 .Competitions-Descriptions-Box {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    width: 33%;
 }
 
 .Competitions-Descriptions-Heading {
