@@ -8,9 +8,9 @@ function Map() {
   return (
     <div className="Map">
       <BgCont />
-      <div className="Accommodation-Map-Heading Accommodation-Heading glow-heading">map</div>
-      <div className="Accommodation-Map-Container">
-        <img src={map_img} alt="Map" className="Accommodation-Map" />
+      <div className="Map-Heading glow-heading">map</div>
+      <div className="Map-Container">
+        <img src={map_img} alt="Map" className="Accommodation-Map_map" />
       </div>
     </div>
   );

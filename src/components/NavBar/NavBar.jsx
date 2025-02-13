@@ -76,7 +76,7 @@ function NavBar() {
             
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/accommodation' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/comingsoon'>ACCOMMODATION</Link>
+              <Link to='/accommodation'>ACCOMMODATION</Link>
             </div>
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/merch' ? ' NavBar-links-container-link-active' : '')}>
@@ -167,7 +167,7 @@ function NavBar() {
                 ? ' mobile-navbar-menu-container-link-active' : '')
             }
           >
-            <Link to="/accommodation" onClick={(e) => onClickLink(e, '/comingsoon')}>ACCOMMODATION</Link>
+            <Link to="/accommodation" onClick={(e) => onClickLink(e, '/accommodation')}>ACCOMMODATION</Link>
           </div>
           <div
             className={

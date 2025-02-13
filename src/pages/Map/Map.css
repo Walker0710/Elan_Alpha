@@ -17,7 +17,7 @@
     padding: 10vh 4%;
 }
 
-.Accommodation-Map-Heading {
+.Map-Heading {
     margin-top: 15vh;
     margin-bottom: 10vh;
     font-family: Ilyas, serif;
@@ -26,13 +26,13 @@
     font-weight: 300;
 }
 
-.Accommodation-Map-Container {
+.Map-Container {
     width: 100%;
     height: auto;
     margin-bottom: 10%;
 }
 
-.Accommodation-Map-Container img {
+.Map-Container img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -60,7 +60,7 @@
         padding: 25vh 8% 10vh 8%;
     }
 
-    .Accommodation-Map-Heading {
+    .Map-Heading {
         margin-top: 0;
         margin-bottom: 3vh;
         font-family: Ilyas, serif;
@@ -69,13 +69,13 @@
         font-weight: 300;
     }
     
-    .Accommodation-Map-Container {
+    .Map-Container {
         width: 100%;
         height: auto;
         margin-bottom: 10%;
     }
     
-    .Accommodation-Map-Container img {
+    .Map-Container img {
         width: 100%;
         height: 100%;
         object-fit: contain;
