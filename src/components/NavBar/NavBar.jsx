@@ -104,7 +104,7 @@ function NavBar() {
             </div>
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/map' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/comingsoon'>MAP</Link>
+              <Link to='/map'>MAP</Link>
             </div>
 
           </div>
@@ -233,7 +233,7 @@ function NavBar() {
                 ? ' mobile-navbar-menu-container-link-active' : '')
             }
           >
-            <Link to="/map" onClick={(e) => onClickLink(e, '/comingsoon')}>MAP</Link>
+            <Link to="/map" onClick={(e) => onClickLink(e, '/map')}>MAP</Link>
           </div>
         </div>
       </div>
