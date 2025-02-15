@@ -21,7 +21,7 @@ function Accommodation() {
         various accommodation options below. Early booking will help you focus on what 
         matters most - making unforgettable memories at our event. <br/><br/>
         <a href="https://docs.google.com/document/d/1e_QbfhDiW31fILSkyRMBcq419O8_oX6Xa-2O1UzygNY/edit?usp=drivesdk" target="_blank" rel="noreferrer" className="Accommodation-Booking-Link">Check out the accommodation guidelines here</a> <br/><br/>
-        <a href="https://pages.razorpay.com/pl_Pt37mNvj2k0ByX/view" target="_blank" rel="noreferrer" className="Accommodation-Booking-Link">Get your passes here</a> <br/><br/>
+        <a href="https://pages.razorpay.com/pl_Pt37mNvj2k0ByX/view" target="_blank" rel="noreferrer" className="Accommodation-Booking-Link">Book your rooms now</a> <br/><br/>
       </div>
       <div className="Accommodation-Map-Heading Accommodation-Heading glow-heading">room photos</div>
       <div className="Accommodation-Map-Container">

@@ -28,7 +28,7 @@ const tech_competitions = [
     name: 'Environmental Pollution Quiz',
     description: 'Test your understanding of environmental challenges in this specialized quiz presented in collaboration with Telangana Pollution Control Board. From air quality to waste management, demonstrate your knowledge about pollution control, sustainability, and ecological conservation.',
     image: environmental_pollution_img,
-    link: 'https://bharatversity.com/dashboard/event/679e165e8f8b890021016e53'
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSdx_IDqVL4phiqyck3cByj4X-eEmY09kuBCIfu0jqN61Ma7wQ/viewform?usp=header'
   },
   {
     name: 'Here\'s my vision',

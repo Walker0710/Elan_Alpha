@@ -35,37 +35,7 @@ function Footer() {
 
 
 
-        <div className='Footer-Bottom'>
-            <div className='Footer-Bottom-Heading Footer-Heading'>CONTACT US</div>
-            <div className='Footer-Bottom-Poc-Container'>
-              <div className='Footer-Bottom-Poc-Box'>
-                <span className='Footer-Bottom-Poc-Name'>Mehul Srivastava</span>
-                <span>Overall Head</span>
-                <span>+91 63952 63137</span>
-              </div>
-              <div className='Footer-Bottom-Poc-Box'>
-                <span className='Footer-Bottom-Poc-Name'>Vighnesh Sreepathi</span>
-                <span>Vice Overall Head</span>
-                <span>+91 81214 62682</span>
-              </div>
-              <div className='Footer-Bottom-Poc-Box'>
-                <span className='Footer-Bottom-Poc-Name'>Dhruv Sharma</span>
-                <span>Head of Public Relations</span>
-                <span>+91 77027 36060</span>
-              </div>
-              <div className='Footer-Bottom-Poc-Box'>
-                <span className='Footer-Bottom-Poc-Name'>Ananya S Reddy</span>
-                <span>Head of Public Relations</span>
-                <span>+91 63040 56873</span>
-              </div>
-              <div className='Footer-Bottom-Poc-Box'>
-                <span className='Footer-Bottom-Poc-Name'>Anek Anjireddy</span>
-                <span>Head of Sponsorship</span>
-                <span>+91 99896 77207</span>
-              </div>
-              
-            </div>
-          </div>
+        
 
           
       </div>
