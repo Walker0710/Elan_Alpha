@@ -80,26 +80,6 @@ const faqs = [
       '4. Sai Midhun - 89197 36038\n' +
       '5. Akhil Nistala - 72073 83544\n' +
       '6. Shreeja - 81791 04857\n'
-  },
-  {
-    question: '',
-    answer: ''
-  },
-  {
-    question: '',
-    answer: ''
-  },
-  {
-    question: '',
-    answer: ''
-  },
-  {
-    question: '',
-    answer: ''
-  },
-  {
-    question: '',
-    answer: ''
   }
 ];
 
