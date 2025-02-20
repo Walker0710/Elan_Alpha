@@ -1,0 +1,177 @@
+.Sponsors {
+    background: linear-gradient(
+            to bottom, 
+            #000000 0%, 
+            #070309 56%, 
+            #0b030e 100%
+    );
+    color: #F1ECE5;
+
+    height: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: var(--adaptive-vw);
+    z-index: 1;
+
+    padding: 25vh 4% 10vh 4%; 
+}
+
+.Sponsors-Contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.4;
+    font-size: 1vw;
+}
+
+.Sponsors-Heading {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: Ilyas, serif;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.Sponsors-Member-Headings {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+.Sponsors-Member-Boxes-Container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    column-gap: 3%;
+    row-gap: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.Sponsors-Member-Box {
+    width: 14vw;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    padding: 1%;
+}
+
+
+
+.Sponsors-Member-Img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Sponsors {
+        background: linear-gradient(
+                to bottom, 
+                #000000 0%, 
+                #070309 56%, 
+                #0b030e 100%
+        );
+        color: #F1ECE5;
+    
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: var(--adaptive-vw);
+        z-index: 1;
+    
+        padding: 10vh 8% 10vh 8%; 
+    }
+    
+    .Sponsors-Heading {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-family: Ilyas, serif;
+        text-transform: uppercase;
+        font-size: 13.7vw;
+        font-weight: 300;
+    }
+    
+    .Sponsors-Member-Headings {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 7vw;
+        text-transform: uppercase;
+        margin-bottom: 5vh;
+    }
+    
+    .Sponsors-Member-Boxes-Container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
+        column-gap: 3%;
+        row-gap: 10vh;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    
+    .Sponsors-Member-Box {
+        width: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2%;
+        padding: 10%;
+    }
+    
+
+    
+    .Sponsors-Member-Img {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
