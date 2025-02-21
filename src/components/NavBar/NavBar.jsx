@@ -220,7 +220,7 @@ function NavBar() {
           <div
             className={
               'mobile-navbar-menu-container-link' +
-              (location.pathname === '/competition'
+              (location.pathname === '/competitions'
                 ? ' mobile-navbar-menu-container-link-active' : '')
             }
           >

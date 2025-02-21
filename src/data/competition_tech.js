@@ -50,7 +50,7 @@ const tech_competitions = [
     name: 'Code Clash',
     description: 'A competitive programming competition where participants solve algorithmic and mathematical problems within a limited time frame. It tests participants’ problem-solving skills, algorithmic efficiency, and coding speed.',
     image: code_clash_img,
-    link: 'https://bharatversity.com/dashboard/event/6784daabc9499900218d5626'
+    link: 'https://forms.gle/fMUvPCqEp2jY9LTXA'
   },
   {
     name: 'Game Jam',
