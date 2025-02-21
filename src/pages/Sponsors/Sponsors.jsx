@@ -362,6 +362,11 @@ function Sponsors() {
             </div>
           ))
         }
+        
+      </div>
+
+      <div className="Sponsors-Heading glow-heading">special thanks</div>
+      <div className="Sponsors-Member-Boxes-Container">
         {
           special_thanks.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
@@ -370,7 +375,6 @@ function Sponsors() {
           ))
         }
       </div>
-
 
     </div>
   );
