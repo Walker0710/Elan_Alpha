@@ -35,6 +35,12 @@ import bisleri from '/src/assets/sponsors_images/bisleri.jpeg';
 import bisleri_change from '/src/assets/sponsors_images/bisleri_change.jpeg';
 import forge_alumnus from '/src/assets/sponsors_images/forge_alumnus.jpg';
 
+import bakelore from '/src/assets/sponsors_images/bakelore.jpg';
+import burgerking from '/src/assets/sponsors_images/burgerking.png';
+import foodfusion from '/src/assets/sponsors_images/foodfusion.jpeg';
+import foodhub from '/src/assets/sponsors_images/foodhub.jpeg';
+import mahaveer from '/src/assets/sponsors_images/mahaveer.jpeg';
+import pullice from '/src/assets/sponsors_images/pullice.jpg';
 
 export const title = [
     {
@@ -219,7 +225,31 @@ export const food = [
     {
         image: sakthi,
         link: ''
-    }
+    },
+    {
+        image: bakelore,
+        link: ''
+    },
+    {
+        image: burgerking,
+        link: ''
+    },
+    {
+        image: foodfusion,
+        link: ''
+    },
+    {
+        image: foodhub,
+        link: ''
+    },
+    {
+        image: mahaveer,
+        link: ''
+    },
+    {
+        image: pullice,
+        link: ''
+    },
 ];
 
 export const event = [
