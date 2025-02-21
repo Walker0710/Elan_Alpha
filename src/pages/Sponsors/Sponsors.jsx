@@ -59,7 +59,7 @@ function Sponsors() {
 
 
       <div className="Sponsors-Member-Boxes-Container">
-      {
+        {
           corporate.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
               <div className='Sponsors-Member-Img-Container'>
