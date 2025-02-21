@@ -96,7 +96,7 @@ function NavBar() {
             
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/sponsors' ? ' NavBar-links-container-link-active' : '')}>
-              <Link to='/comingsoon'>SPONSORS</Link>
+              <Link to='/sponsors'>SPONSORS</Link>
             </div>
 
             <div className={"NavBar-links-container-link" + (location.pathname === '/competitions' ? ' NavBar-links-container-link-active' : '')}>
@@ -215,7 +215,7 @@ function NavBar() {
                 ? ' mobile-navbar-menu-container-link-active' : '')
             }
           >
-            <Link to="/sponsors" onClick={(e) => onClickLink(e, '/comingsoon')}>SPONSORS</Link>
+            <Link to="/sponsors" onClick={(e) => onClickLink(e, '/sponsors')}>SPONSORS</Link>
           </div>
           <div
             className={
