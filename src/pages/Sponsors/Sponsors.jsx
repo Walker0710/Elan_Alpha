@@ -46,7 +46,7 @@ function Sponsors() {
       <div className="Sponsors-Member-Boxes-Container">
         {
           title.map((person, index) => (
-            <div className="Sponsors-Member-Box" key={index}>
+            <div className="Title-Sponsors-Member-Box" key={index}>
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
 
@@ -62,10 +62,13 @@ function Sponsors() {
       {
           corporate.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
-              <a href={person.link} target="_blank">
+              <div className='Sponsors-Member-Img-Container'>
+                <a href={person.link} target="_blank">
 
-              <img src={person.image} className='Sponsors-Member-Img'></img>
-              </a>
+                  <img src={person.image} className='Sponsors-Member-Img'></img>
+                </a>
+              </div>
+              
               <div className="Sponsors-Member-Type">corporate Partner</div>
             </div>
           ))
@@ -73,10 +76,15 @@ function Sponsors() {
         {
           techinical.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
               <a href={person.link} target="_blank">
 
               <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+
+              </div>
+              
+              
               <div className="Sponsors-Member-Type">Techinical Partner</div>
             </div>
           ))
@@ -84,9 +92,12 @@ function Sponsors() {
         {
           social_welfare.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
-              <a href={person.link} target="_blank">
+              <div className="Sponsors-Member-Img-Container">
+                <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
+              
               <div className="Sponsors-Member-Type">Social Welfare Partner</div>
               
             </div>
@@ -95,9 +106,12 @@ function Sponsors() {
         {
           ticketing.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Ticketing Welfare Partner</div>
             </div>
           ))
@@ -105,9 +119,13 @@ function Sponsors() {
         {
           environment_management.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Environment Management Partner</div>
             </div>
           ))
@@ -115,9 +133,13 @@ function Sponsors() {
         {
           power.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Power Partner</div>
             </div>
           ))
@@ -125,9 +147,13 @@ function Sponsors() {
         {
           digital_banking.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Digital Banking Partner</div>
             </div>
           ))
@@ -135,9 +161,13 @@ function Sponsors() {
         {
           official_community.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target="_blank">
                 <img src={person.image} className='Sponsors-Member-Img'></img>
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Official Community Partner</div>
             </div>
           ))
@@ -145,10 +175,14 @@ function Sponsors() {
         {
           anime_title_sponsor.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Title sponsor for Anime quiz</div>
             </div>
           ))
@@ -156,10 +190,14 @@ function Sponsors() {
         {
           savings.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Savings Partner</div>
             </div>
           ))
@@ -167,10 +205,14 @@ function Sponsors() {
         {
           travel.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Travel Partner</div>
             </div>
           ))
@@ -178,10 +220,14 @@ function Sponsors() {
         {
           mobile_gaming.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Mobile Gaming Partner</div>
             </div>
           ))
@@ -189,10 +235,14 @@ function Sponsors() {
         {
           style.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Style Partner</div>
             </div>
           ))
@@ -200,10 +250,14 @@ function Sponsors() {
         {
           exclusive_adventure.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Exclusive Adventure Partner</div>
             </div>
           ))
@@ -211,10 +265,14 @@ function Sponsors() {
         {
           logistics.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Logistics Partner</div>
             </div>
           ))
@@ -222,10 +280,14 @@ function Sponsors() {
         {
           self_care.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Self care Partner</div>
             </div>
           ))
@@ -233,10 +295,14 @@ function Sponsors() {
         {
           fest_workshop.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">Fest workshop Partner</div>
             </div>
           ))
@@ -244,10 +310,14 @@ function Sponsors() {
         {
           banking.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">banking Partner</div>
             </div>
           ))
@@ -255,10 +325,14 @@ function Sponsors() {
         {
           merchandise.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">merchandise Partner</div>
             </div>
           ))
@@ -266,10 +340,14 @@ function Sponsors() {
         {
           brand.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">brand Partner</div>
             </div>
           ))
@@ -277,10 +355,14 @@ function Sponsors() {
         {
           refreshment.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">refreshment Partner</div>
             </div>
           ))
@@ -288,10 +370,14 @@ function Sponsors() {
         {
           sustainability.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">sustainability Partner</div>
             </div>
           ))
@@ -299,10 +385,14 @@ function Sponsors() {
         {
           event.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">event Partner</div>
             </div>
           ))
@@ -310,10 +400,14 @@ function Sponsors() {
         {
           school_education.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">school education Partner</div>
             </div>
           ))
@@ -321,10 +415,14 @@ function Sponsors() {
         {
           food.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">food Partner</div>
             </div>
           ))
@@ -332,10 +430,14 @@ function Sponsors() {
         {
           audio.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">audio Partner</div>
             </div>
           ))
@@ -343,10 +445,14 @@ function Sponsors() {
         {
           wooden_games.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">wooden games Partner</div>
             </div>
           ))
@@ -354,10 +460,14 @@ function Sponsors() {
         {
           oral_care.map((person, index) => (
             <div className="Sponsors-Member-Box" key={index}>
+              <div className="Sponsors-Member-Img-Container">
+
+
               <a href={person.link} target='_Blank'>
               <img src={person.image} className='Sponsors-Member-Img'></img>
 
               </a>
+              </div>
               <div className="Sponsors-Member-Type">oral care Partner</div>
             </div>
           ))
