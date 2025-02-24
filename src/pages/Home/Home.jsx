@@ -138,14 +138,7 @@ function Home() {
                 />
               
               */}
-            
 
-              <div className="Home-Hero-Button-In">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLScHeay7wTo2a71VaQH1u4GyHjSDFKTuk5qv0AGiwqh2a_m5JA/viewform' target="_blank" rel="noreferrer">
-                  GET YOUR FREE FEST PASSES
-
-                </a>
-              </div>
             </div>
 
             <div className='Home-Hero-Description'>
