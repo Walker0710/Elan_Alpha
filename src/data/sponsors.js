@@ -29,7 +29,7 @@ import robotwalah from '/src/assets/sponsors_images/ROBOTWALLAH (1).png-1.png';
 import om_logistics from '/src/assets/sponsors_images/OLL-LOGO-HR-1.png';
 import smart_handsome from '/src/assets/sponsors_images/smart_handsome.png';
 import canara from '/src/assets/sponsors_images/Canara_Bank_Logo.svg';
-import ntpc from '/src/assets/sponsors_images/ntpc.jpeg';
+import ntpc from '/src/assets/sponsors_images/ntpc.jpg';
 
 import bisleri from '/src/assets/sponsors_images/bisleri.jpeg';
 import bisleri_change from '/src/assets/sponsors_images/bisleri_change.jpeg';
