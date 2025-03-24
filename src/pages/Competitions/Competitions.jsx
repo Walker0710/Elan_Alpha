@@ -32,7 +32,7 @@ function Competitions() {
               }}
             >DOWNLOAD CULTI RULEBOOK</a>
           </div>
-          <div className="Competitions-Descriptions-Learn-More">
+          {/* <div className="Competitions-Descriptions-Learn-More">
             <PentagonLink
                               href="/culti-competitions"
                               text="CLICK HERE FOR MORE"
@@ -40,7 +40,7 @@ function Competitions() {
                               pentagonHeight={25}
                               fontSize={"1vw"}
                             />
-          </div>
+          </div> */}
         </div>
         <div className="Competitions-Descriptions-Box">
           <div className="Competitions-Descriptions-Heading glow-heading">Techy</div>
@@ -65,7 +65,7 @@ function Competitions() {
               }}
             >DOWNLOAD TECHY RULEBOOK</a>
           </div>
-          <div className="Competitions-Descriptions-Learn-More">
+          {/* <div className="Competitions-Descriptions-Learn-More">
           <PentagonLink
                               href="/techy-competitions"
                               text="CLICK HERE FOR MORE"
@@ -73,7 +73,7 @@ function Competitions() {
                               pentagonHeight={25}
                               fontSize={"1vw"}
                             />
-          </div>
+          </div> */}
         </div>
         <div className="Competitions-Descriptions-Box">
           <div className="Competitions-Descriptions-Heading glow-heading">Lit</div>
@@ -96,7 +96,7 @@ function Competitions() {
               }}
             >DOWNLOAD LIT RULEBOOK</a>
           </div>
-          <div className="Competitions-Descriptions-Learn-More">
+          {/* <div className="Competitions-Descriptions-Learn-More">
           <PentagonLink
                               href="/lit-competitions"
                               text="CLICK HERE FOR MORE"
@@ -104,7 +104,7 @@ function Competitions() {
                               pentagonHeight={25}
                               fontSize={"1vw"}
                             />
-          </div>
+          </div> */}
         </div>
       </div>
 

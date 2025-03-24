@@ -1,6 +1,6 @@
 import './NavBar.css';
 
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 
 import NavBar_links_svg from '/src/assets/General/menu_vector.svg';
@@ -63,9 +63,9 @@ function NavBar() {
               <Link to='/'>HOME</Link>
             </div>
 
-            <div className={"NavBar-links-container-link" + (location.pathname === '/team' ? ' NavBar-links-container-link-active' : '')}>
+            {/* <div className={"NavBar-links-container-link" + (location.pathname === '/team' ? ' NavBar-links-container-link-active' : '')}>
               <Link to='/team'>CONTACT</Link>
-            </div>
+            </div> */}
 
             {/* 
             <div className={"NavBar-links-container-link" + (location.pathname === '/workshops' ? ' NavBar-links-container-link-active' : '')}>
@@ -178,7 +178,7 @@ function NavBar() {
           >
             <Link to="/merch" onClick={(e) => onClickLink(e, '/comingsoon')}>MERCH</Link>
           </div>
-          <div
+          {/* <div
             className={
               'mobile-navbar-menu-container-link' +
               (location.pathname === '/team'
@@ -186,7 +186,7 @@ function NavBar() {
             }
           >
             <Link to="/team" onClick={(e) => onClickLink(e, '/team')}>CONTACT US</Link>
-          </div>
+          </div> */}
           
           {/*
           <div
