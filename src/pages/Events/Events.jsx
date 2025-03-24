@@ -62,9 +62,9 @@ function Events() {
             heritage, passion, and artistic excellence through engaging competitions 
             highlighting our participants&apos; unique contributions.
           </div>
-          <div className="Events-Inner-Learn-More">
+          {/* <div className="Events-Inner-Learn-More">
             <Link to={'/culti-competitions'} className='glow-hover'>Click here for more</Link>
-          </div>
+          </div> */}
         </div>
         <div className="Events-Inner-Img-Container">
           <div className="Events-Inner-Img-Img">
@@ -93,9 +93,9 @@ function Events() {
             and explore  the frontiers of technology. Choose your arena and let the innovation 
             begin!
           </div>
-          <div className="Events-Inner-Learn-More">
+          {/* <div className="Events-Inner-Learn-More">
             <Link to={'/techy-competitions'} className='glow-hover'>Click here for more</Link>
-          </div>
+          </div> */}
         </div>
         <div className="Events-Inner-Img-Container">
           <div className="Events-Inner-Img-Img">

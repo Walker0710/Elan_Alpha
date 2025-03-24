@@ -22,7 +22,7 @@ function Competitions() {
             heritage, passion, and artistic excellence through engaging competitions 
             highlighting our participants&apos; unique contributions.<br/><br/>
             
-            <a 
+            {/* <a 
               href={culti_rulebook} 
               download={"elan_nvision_culti_rulebook"}
               style={{
@@ -30,7 +30,7 @@ function Competitions() {
                 textDecoration: 'underline',
                 color: 'white',
               }}
-            >DOWNLOAD CULTI RULEBOOK</a>
+            >DOWNLOAD CULTI RULEBOOK</a> */}
           </div>
           {/* <div className="Competitions-Descriptions-Learn-More">
             <PentagonLink
@@ -55,7 +55,7 @@ function Competitions() {
             and explore  the frontiers of technology. Choose your arena and let the innovation 
             begin! <br/><br/>
 
-            <a 
+            {/* <a 
               href={techy_rulebook} 
               download={"elan_nvision_techy_rulebook"}
               style={{
@@ -63,7 +63,7 @@ function Competitions() {
                 textDecoration: 'underline',
                 color: 'white',
               }}
-            >DOWNLOAD TECHY RULEBOOK</a>
+            >DOWNLOAD TECHY RULEBOOK</a> */}
           </div>
           {/* <div className="Competitions-Descriptions-Learn-More">
           <PentagonLink
@@ -86,7 +86,7 @@ function Competitions() {
             life, here&apos;s your stage to showcase your command over language..
             <br/><br/>
 
-            <a 
+            {/* <a 
               href={lit_rulebook} 
               download={"elan_nvision_lit_rulebook"}
               style={{
@@ -94,7 +94,7 @@ function Competitions() {
                 textDecoration: 'underline',
                 color: 'white',
               }}
-            >DOWNLOAD LIT RULEBOOK</a>
+            >DOWNLOAD LIT RULEBOOK</a> */}
           </div>
           {/* <div className="Competitions-Descriptions-Learn-More">
           <PentagonLink
